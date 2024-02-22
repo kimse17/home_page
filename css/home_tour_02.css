@@ -570,22 +570,14 @@ margin-bottom: 80px;
     background-color: #0082bf;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.icon_06_r {
+    position: relative;
+    width: 1500px;
+    font-size: 1.0rem;
+    clear: both;
+    color: #999;
+    margin-top: 40px;
+}
 
 
 #footer {
