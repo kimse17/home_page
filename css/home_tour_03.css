@@ -524,8 +524,20 @@ input[type=text] {
     right: -5px;
     background-color: #8a8a8a;
 }
-/* .icon_file{
+
+.lan_img {
+    top: 15px;
     position: absolute;
-    top: 0;
-    left: 0;
-} */
+}
+
+.lan_img>p {
+    color: #ffffff;
+    position: absolute;
+    top: -37px;
+    left: 55px;
+    font-size: 1.0rem;
+}
+
+.lan_img>img {
+    border: 1px solid #ffffff;
+}
