@@ -255,14 +255,14 @@ input[type=text] {
     height: 50px;
     background-color: #a7a7a7;
 }
+
 #map_all {
     position: relative;
-    width: 1200px;
+    width: 1400px;
     height: auto;
     margin: 0 auto;
     margin-top: 50px;
-    /* left: 40px; */
-
+    left: 40px; 
 }
 
 #map_all>h1 {
@@ -293,9 +293,10 @@ input[type=text] {
 }
 
 
-.display_all{
-    position: relative;
-    
+.display_all {
+    position: absolute;
+    top: 2px;
+    left: 100px;
 
 }
 
