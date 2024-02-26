@@ -345,6 +345,9 @@ input[type=text] {
     width: 1200px;
     height: 650px;
 }
+#loc_user >h4{
+    font-size: 1.2rem;
+}
 
 .loc_user_01 {
     position: relative;
