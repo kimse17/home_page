@@ -295,3 +295,33 @@ input[type=text] {
     top: 3px;
     color: #999;
 }
+
+#intro_all {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    height: auto;
+}
+
+
+.intro_ments>li {
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    left: -20px;
+    height: 543px;
+    color: #999;
+    font-size: 1.0rem;
+}
+.intro_ments>li >img{
+    margin-bottom: 10px;
+}
+.intro_ments>li::after{
+    content: '';
+    position: absolute;
+    top: 500px;
+    left: 40px;
+    width: 1100px;
+    height: 1px;
+    background-color: #0181be;
+}
