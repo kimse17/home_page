@@ -317,7 +317,7 @@ input[type=text] {
 #live_all {
     position: relative;
     width: 1200px;
-    height: 3800px;
+    height:auto;
     margin: 0 auto;
     margin-top: 50px;
 }
@@ -343,19 +343,21 @@ input[type=text] {
     font-size: 1.4rem;
     margin-top: 20px;
 }
-.live_ments>p{
+
+.live_ments>p {
     position: relative;
     margin-top: -20px;
     font-size: 0.8rem;
     font-weight: 500;
     margin-bottom: 20px;
 }
+
 .live_ments>ul {
     position: relative;
     padding-left: 0px;
     width: 670px;
     margin: 0 auto;
-    height:60px;
+    height: 60px;
 }
 
 .live_ments>ul>li {
@@ -379,7 +381,8 @@ input[type=text] {
     border-radius: 4px;
     border: 1px solid#007c8b;
 }
-.live_ment_01{
+
+.live_ment_01 {
     width: 50px;
     height: 24px;
     text-align: center;
@@ -388,6 +391,87 @@ input[type=text] {
     border-radius: 4px;
     border: 1px solid #999;
 }
+
+.live_img {
+    position: absolute;
+    top: 50px;
+    width: 160px;
+    height: 150px;
+    clear: both;
+    right: 30px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #0082bf;
+}
+
+.live_img>img {
+    margin-top: 30px;
+}
+
+.live_img>p {
+    color: #ffffff;
+    font-size: 0.9rem;
+    margin-top: -0px;
+}
+
+.live_img_01 {
+    position: absolute;
+    top: 210px;
+    width: 160px;
+    height: 40px;
+    clear: both;
+    right: 30px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #333;
+}
+
+.live_img_01>img {
+    float: left;
+    left: 35px;
+    top: 10px;
+    position: absolute;
+}
+
+.live_img_01>p {
+    text-align: center;
+    color: #ffffff;
+    left: 60px;
+    top: -4px;
+    font-size: 0.9rem;
+    position: absolute;
+}
+
+#num_all {
+    width: 1400px;
+    height: 100px;
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    margin-top: -30px;
+}
+
+#num_all>div {
+    cursor: pointer;
+    position: relative;
+    width: 50px;
+    font-size: 1rem;
+    left: 620px;
+    line-height: 30px;
+    text-align: center;
+    color: #999;
+}
+#num_all>img{
+    position: absolute;
+    top: 7px;
+    right: 650px;
+}
+
+
+
+
+
+
 
 #footer {
     background-color: black;
