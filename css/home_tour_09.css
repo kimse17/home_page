@@ -181,7 +181,6 @@ input[type=text] {
 }
 
 #top_all {
-
     position: relative;
     width: 100%;
     height: 300px;
@@ -192,14 +191,15 @@ input[type=text] {
     position: absolute;
     top: 40px;
     text-align: center;
-    left: 43%;
-    width: 300px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 500px;
     font-size: 2.8rem;
 }
 
 .top_02 {
     position: absolute;
-    top: 180px;
+    top: 170px;
     border: 1px solid #a7a7a7;
     /* width: 800px; */
     transform: translateX(-50%);
@@ -218,7 +218,9 @@ input[type=text] {
     font-size: 0.9rem;
     color: #a7a7a7;
 }
-
+.top_02>p>a{
+    color: #727272;
+}
 
 .top_02>p:nth-child(2)::after {
     content: '';
@@ -480,7 +482,7 @@ input[type=text] {
     padding: 50px 330px;
     font-size: 0.8rem;
     height: 80px;
-    width: 1400px;
+    width: 1200px;
 }
 
 .footer_all {
