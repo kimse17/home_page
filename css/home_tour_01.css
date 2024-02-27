@@ -260,6 +260,7 @@ input[type=text] {
     position: relative;
     width: 100%;
     height: auto;
+    margin-bottom: 80px;
 }
 
 #middle_all>h1 {
@@ -272,7 +273,10 @@ input[type=text] {
 
 #middle_all>video {
     position: relative;
-    left: 350px;
+    /* left: 350px; */
+    width: 1200px;
+    left: 50%;
+    transform: translateX(-50%);
     margin-top: 25px;
 }
 
@@ -358,7 +362,7 @@ input[type=text] {
     padding: 50px 330px;
     font-size: 0.8rem;
     height: 80px;
-    width: 1400px;
+    width: 1200px;
 }
 
 .footer_all {
