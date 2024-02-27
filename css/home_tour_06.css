@@ -347,8 +347,8 @@ input[type=text] {
 .live_ments>p {
     position: relative;
     margin-top: -20px;
-    font-size: 0.8rem;
-    font-weight: 500;
+    font-size: 0.9rem;
+    font-weight: 300;
     margin-bottom: 20px;
 }
 
