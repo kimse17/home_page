@@ -179,6 +179,7 @@ input[type=text] {
     color: #0193d6;
     text-decoration: underline;
 }
+
 #top_all {
     position: relative;
     width: 100%;
@@ -254,6 +255,7 @@ input[type=text] {
     height: 50px;
     background-color: #a7a7a7;
 }
+
 #map_all {
     position: relative;
     width: 1200px;
@@ -293,7 +295,7 @@ input[type=text] {
 
 #map_ment {
     position: relative;
-    width: 1194px;
+    width: 1200px;
     margin: 0 auto;
     height: 145px;
     border-right: 1px solid #ebebeb;
@@ -343,7 +345,7 @@ input[type=text] {
     width: 1200px;
     margin: 0 auto;
     height: auto;
-margin-bottom: 80px;
+    margin-bottom: 80px;
 }
 
 .icon_01 {
@@ -554,7 +556,7 @@ margin-bottom: 80px;
     position: relative;
     width: 300px;
     height: 20px;
-    line-height:20px;
+    line-height: 20px;
     font-size: 1.0rem;
     color: #999;
 
@@ -587,7 +589,7 @@ margin-bottom: 80px;
     padding: 50px 330px;
     font-size: 0.8rem;
     height: 80px;
-    width: 1400px;
+    width: 1200px;
 }
 
 .footer_all {
