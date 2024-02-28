@@ -216,10 +216,7 @@ input[type=text] {
     line-height: 50px;
     text-align: center;
     font-size: 0.9rem;
-    color: #a7a7a7;
-}
-.top_02>p>a{
-    color: #727272;
+
 }
 
 .top_02>p:nth-child(2)::after {
