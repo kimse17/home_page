@@ -146,7 +146,7 @@ input[type=text] {
 
 .img_all {
     position: relative;
-    width: 1400px;
+    width: 1200px;
     height: 850px;
 
     display: flex;
@@ -321,15 +321,16 @@ input[type=text] {
 
 #main_img_02 {
     position: relative;
-    height: 724px;
+    height: auto;
     clear: both;
-    width: 100%;
+    margin: 0 auto;
+    width: 1200px;
 }
 
 .main_img_02_01 {
     position: relative;
     width: 1200px;
-    height: 724px;
+    /* height: 724px; */
     margin: 0 auto;
     clear: both;
     text-align: center;
@@ -361,58 +362,23 @@ input[type=text] {
     top: 10px;
 }
 
-/* #post_wrapper {
+#main_img_03{
     position: relative;
+    width: 1200px;
     margin: 0 auto;
-    display: flex;
-    overflow: hidden;
-    height: 400px;
-    width: 1000px;
-
+    margin-top: 50px;
+    height: 600px;
+    background-color: yellowgreen;
 }
-
-.btn_l {
+/* .mini_01 {
     position: absolute;
-    top: 50%;
-    left: -200px;
-    cursor: pointer;
-}
-
-.btn_r {
-    position: absolute;
-    top: 50%;
-    right: -200px;
-    cursor: pointer;
-}
-
-.post {
-    position: relative;
-    width: 700px;
-    clear: both;
-}
-
-.post>img {
-    position: relative;
-    float: left;
-    align-content: space-between;
-    padding: 45px;
-    left: -55px;
-    margin-left: -100px;
-    margin-right: 250px;
-
-} */
-
-.mini_01 {
-    position: absolute;
-    top: 50%;
-    left: -100px;
+    
 }
 
 .mini_02 {
     position: absolute;
-    top: 50%;
-    right: -100px;
-}
+    
+} */
 
 .mini_img {
     position: relative;
