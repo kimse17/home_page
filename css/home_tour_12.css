@@ -263,16 +263,26 @@ input[type=text] {
 #map_all {
     position: relative;
     width: 1400px;
-    height: auto;
+    height: 130px;
     margin: 0 auto;
     margin-top: 50px;
     left: 100px;
 }
 
+#map_all::after {
+    position: absolute;
+    content: '';
+    top: 130px;
+    width: 1200px;
+    height: 1px;
+    background-color: #ddd;
+}
+
 #map_all>h1 {
     width: 1200px;
     position: relative;
-    font-size: 2.5rem;
+    font-weight: 600;
+    font-size: 2.3rem;
 }
 
 .m_img {
@@ -299,99 +309,190 @@ input[type=text] {
 #user_all {
     position: relative;
     width: 1200px;
-    height: 450px;
+    height: 90px;
     margin: 0 auto;
 }
 
-.user_r {
+#user_all>ul {
     position: relative;
-    float: right;
-    width: 540px;
-    height: 340px;
+    display: flex;
+    width: 500px;
+    height: 40px;
+    left: 50%;
+    margin-top: 70px;
+    transform: translateX(-50%);
 }
 
-.user_r>h4 {
-    margin-top: 0px;
-    font-size: 1.7rem;
-    font-weight: 500;
-    height: 200px;
-    width: 540px;
-}
-
-.user_r>p {
+#user_all>ul>li {
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    width: 140px;
+    margin-right: 30px;
     font-size: 1.0rem;
-    color: #616161;
+    text-align: center;
 }
 
-.user_r::after {
-    content: '';
+.user_ment_01 {
+    position: relative;
+    width: 140px;
+    height: 40px;
+    background-color: #6e4b9d;
+    color: #ffffff;
+    border-radius: 24px;
+}
+
+.user_ment_01>a {
+    color: #fff;
+}
+
+.user_ment_01::after {
     position: absolute;
-    top: 340px;
-    width: 540px;
-    height: 1px;
-    background-color: #eee;
+    content: '';
+    top: 100%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 7px solid #6e4b9d;
+    display: block;
 }
 
-.user_loc {
+.user_ment_02 {
+    position: relative;
+    width: 140px;
+    height: 40px;
+    border: 1px solid #bbb;
+    border-radius: 24px;
+}
+
+.user_ment_02>a {
+    color: #999;
+}
+
+#user_loc {
     position: relative;
     width: 1200px;
-    height: 800px;
+    height: 850px;
     margin: 0 auto;
+}
+
+.popb_info {
+    position: relative;
+    text-align: center;
+}
+
+.popb_info>h4 {
+    width: 1200px;
+    height: 50px;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+
+.popb_info>p {
+    position: relative;
+    width: 1200px;
+    top: -30px;
+    font-size: 0.9rem;
+    text-align: center;
+    color: #999;
 }
 
 #loc_user {
     position: relative;
-    margin: 0 auto;
     width: 1200px;
-    height: 650px;
-}
-#loc_user >h4{
-    font-size: 1.2rem;
-}
-
-.loc_user_01 {
-    position: relative;
-    float: left;
-    margin-right: 25px;
-    height: 490px;
-    border: 1px solid #e7e7e7;
+    text-align: center;
+    height: auto;
     margin: 0 auto;
-    text-align: center;
 }
 
-.loc_user_02 {
-    position: relative;
-    float: right;
-    height: 490px;
-    border: 1px solid #e7e7e7;
+#loc_user>h4 {
+    width: 1200px;
+    height: 50px;
     text-align: center;
+    font-size: 2.2rem;
+    font-weight: 500;
 }
 
-.loc_user_01_01 {
+#loc_user>p {
     position: relative;
-    width: 585px;
-    height: 36px;
-    margin-top: 40px;
-    font-size: 1.3rem;
-}
-.loc_user_01_01::after{
-    content: '';
-    position: absolute;
-    top:40px;
-    left: 280px;
-    width: 30px;
-    height: 1px;
-}
-.loc_user_01_02{
-    position: relative;
+    width: 1200px;
+    top: -30px;
+    font-size: 0.9rem;
+    text-align: center;
     color: #999;
-    margin-top: 30px;
-    font-size: 1.0rem;
 }
+
+#cafe_menu_all {
+    position: relative;
+    width: 1200px;
+    height: 550px;
+    margin: 0 auto;
+    top: 50px;
+
+}
+
+.cafe_menu_01 {
+    position: relative;
+    width: 340px;
+    height: 430px;
+    margin: 0 auto;
+    float: left;
+    border: 1px solid #ddd;
+}
+
+.cafe_menu_01>p {
+    width: 340px;
+    color: #999;
+    line-height: 50px;
+    font-size: 1.0rem;
+    text-align: center;
+}
+
+.cafe_menu_02 {
+    position: absolute;
+    width: 340px;
+    height: 430px;
+    left: 440px;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+    float: left;
+}
+
+.cafe_menu_02>p {
+    width: 340px;
+    color: #999;
+    line-height: 50px;
+    font-size: 1.0rem;
+    text-align: center;
+}
+
+.cafe_menu_03 {
+    position: absolute;
+    right: 0;
+
+    width: 340px;
+    border: 1px solid #ddd;
+    height: 430px;
+    margin: 0 auto;
+    float: left;
+}
+
+.cafe_menu_03>p {
+    width: 340px;
+    color: #999;
+    line-height: 50px;
+    font-size: 1.0rem;
+    text-align: center;
+}
+
 #footer {
     background-color: black;
     color: #b1b0b0;
     clear: both;
+    margin-top: 100px;
     padding: 50px 330px;
     font-size: 0.8rem;
     height: 80px;
