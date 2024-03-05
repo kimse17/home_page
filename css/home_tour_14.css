@@ -259,6 +259,15 @@ input[type=text] {
     height: 50px;
     background-color: #a7a7a7;
 }
+.top_02_p>a {
+    color: #fff;
+}
+
+.top_02_p {
+    background-color: rgb(82, 129, 190);
+    width: 160px;
+    height: 52px;
+}
 
 #map_all {
     position: relative;
@@ -312,7 +321,18 @@ input[type=text] {
     height: 90px;
     margin: 0 auto;
 }
-
+#user_cafe_all>div>p{
+    position: absolute;
+    width: 288px;
+    top: 275px;
+    height: 69px;
+    line-height: 69px;
+    background-color: #f0f0f098;
+}
+#user_cafe_all>div>p>a{
+    font-size: 1.0rem;
+    line-height: 69px;
+}
 #user_all>ul {
     position: relative;
     display: flex;
