@@ -92,3 +92,111 @@ function showText_01() {
         textOverlay_01.style.opacity = "1";
     }
 }
+function showText_02() {
+    var textOverlay_02 = document.getElementById("textOverlay_02");
+
+    if (textOverlay_02.style.opacity === "1") {
+        textOverlay_02.style.opacity = "0";
+    } else {
+        textOverlay_02.style.opacity = "1";
+    }
+}
+function showText_03() {
+    var textOverlay_03 = document.getElementById("textOverlay_03");
+
+    if (textOverlay_03.style.opacity === "1") {
+        textOverlay_03.style.opacity = "0";
+    } else {
+        textOverlay_03.style.opacity = "1";
+    }
+}
+function showText_04() {
+    var textOverlay_04 = document.getElementById("textOverlay_04");
+
+    if (textOverlay_04.style.opacity === "1") {
+        textOverlay_04.style.opacity = "0";
+    } else {
+        textOverlay_04.style.opacity = "1";
+    }
+}
+function showText_05() {
+    var textOverlay_05 = document.getElementById("textOverlay_05");
+
+    if (textOverlay_05.style.opacity === "1") {
+        textOverlay_05.style.opacity = "0";
+    } else {
+        textOverlay_05.style.opacity = "1";
+    }
+}
+function showText_06() {
+    var textOverlay_06 = document.getElementById("textOverlay_06");
+
+    if (textOverlay_06.style.opacity === "1") {
+        textOverlay_06.style.opacity = "0";
+    } else {
+        textOverlay_06.style.opacity = "1";
+    }
+}
+function showText_07() {
+    var textOverlay_07= document.getElementById("textOverlay_07");
+
+    if (textOverlay_07.style.opacity === "1") {
+        textOverlay_07.style.opacity = "0";
+    } else {
+        textOverlay_07.style.opacity = "1";
+    }
+}
+function showText_08() {
+    var textOverlay_08 = document.getElementById("textOverlay_08");
+
+    if (textOverlay_08.style.opacity === "1") {
+        textOverlay_08.style.opacity = "0";
+    } else {
+        textOverlay_08.style.opacity = "1";
+    }
+}
+function showText_09() {
+    var textOverlay_09 = document.getElementById("textOverlay_09");
+
+    if (textOverlay_09.style.opacity === "1") {
+        textOverlay_09.style.opacity = "0";
+    } else {
+        textOverlay_09.style.opacity = "1";
+    }
+}
+function showText_10() {
+    var textOverlay_10 = document.getElementById("textOverlay_10");
+
+    if (textOverlay_10.style.opacity === "1") {
+        textOverlay_10.style.opacity = "0";
+    } else {
+        textOverlay_10.style.opacity = "1";
+    }
+}
+function showText_11() {
+    var textOverlay_11 = document.getElementById("textOverlay_11");
+
+    if (textOverlay_11.style.opacity === "1") {
+        textOverlay_11.style.opacity = "0";
+    } else {
+        textOverlay_11.style.opacity = "1";
+    }
+}
+function showText_12() {
+    var textOverlay_12 = document.getElementById("textOverlay_12");
+
+    if (textOverlay_12.style.opacity === "1") {
+        textOverlay_12.style.opacity = "0";
+    } else {
+        textOverlay_12.style.opacity = "1";
+    }
+}
+function showText_13() {
+    var textOverlay_13 = document.getElementById("textOverlay_13");
+
+    if (textOverlay_13.style.opacity === "1") {
+        textOverlay_13.style.opacity = "0";
+    } else {
+        textOverlay_13.style.opacity = "1";
+    }
+}
