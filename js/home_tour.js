@@ -74,3 +74,21 @@ $(function () {
 })
 
 
+function showText() {
+    var textOverlay = document.getElementById("textOverlay");
+
+    if (textOverlay.style.opacity === "1") {
+        textOverlay.style.opacity = "0";
+    } else {
+        textOverlay.style.opacity = "1";
+    }
+}
+function showText_01() {
+    var textOverlay_01 = document.getElementById("textOverlay_01");
+
+    if (textOverlay_01.style.opacity === "1") {
+        textOverlay_01.style.opacity = "0";
+    } else {
+        textOverlay_01.style.opacity = "1";
+    }
+}
