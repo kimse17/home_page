@@ -208,6 +208,7 @@ input[type=text] {
     display: flex;
 
 }
+
 .top_02_p>a {
     color: #fff;
 }
@@ -384,7 +385,7 @@ input[type=text] {
 #user_cafe_all {
     position: relative;
     width: 1250px;
-    height: auto;
+    height:1240px;
     margin: 0 auto;
 }
 
@@ -395,8 +396,32 @@ input[type=text] {
     width: 1240px;
     height: 357px;
     padding: 5px;
-    margin-bottom:30px;
+    margin-bottom: 30px;
     text-align: center;
+}
+
+.image-container>p {
+    position: absolute;
+    width: 288px;
+    top: 275px;
+    left: 11px;
+    height: 69px;
+    line-height: 69px;
+    background-color: #f0f0f098;
+}
+
+.image-container>p>a {
+    position: relative;
+    width: 288px;
+    height: 69px;
+    line-height: 69px;
+    font-size: 1.0rem;
+    color: #525151;
+}
+
+#user_cafe_all>div>p>a {
+    font-size: 1.0rem;
+    line-height: 69px;
 }
 
 #user_cafe_all>ul>li {
@@ -406,7 +431,8 @@ input[type=text] {
     height: 357px;
     text-align: center;
 }
-#user_cafe_all>ul>li>a{
+
+#user_cafe_all>ul>li>a {
     position: relative;
     width: 288px;
     height: 69px;
@@ -414,11 +440,69 @@ input[type=text] {
     font-size: 1.0rem;
     color: #525151;
 }
-.user_cafe_01{
+
+.user_cafe_01 {
     position: relative;
     width: 1250px;
     height: 350px;
     margin-bottom: 20px;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 150px;
+    left: 155px;
+    width: 258px;
+    height: 270px;
+    transform: translate(-50%, -50%);
+    background: rgba(206, 206, 206, 0.8);
+    color: rgb(0, 0, 0);
+    text-align: left;
+    opacity: 0;
+    padding: 15px;
+    transition: opacity 0.4s ease;
+}
+
+.text-overlay>h4 {
+    font-size: 1.2rem;
+}
+
+.text-overlay>h4::after {
+    position: absolute;
+    content: '';
+    top: 80px;
+    left: 15px;
+    width: 200px;
+    height: 1px;
+    background-color: #4b4b4b;
+}
+
+.text-overlay>p {
+    color: #4b4b4b;
+}
+#num_all {
+    width: 1400px;
+    height: 100px;
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    margin-top: -30px;
+}
+
+#num_all>div {
+    cursor: pointer;
+    position: relative;
+    width: 50px;
+    font-size: 1rem;
+    left: 620px;
+    line-height: 30px;
+    text-align: center;
+    color: #999;
+}
+#num_all>img{
+    position: absolute;
+    top: 7px;
+    right: 600px;
 }
 #footer {
     background-color: black;
