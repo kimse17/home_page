@@ -315,7 +315,8 @@ input[type=text] {
 
 #live_all {
     position: relative;
-    width: 1200px;
+    width: 1400px;
+    left: 30px;
     height:auto;
     margin: 0 auto;
     margin-top: 50px;
@@ -474,7 +475,7 @@ input[type=text] {
     padding: 50px 330px;
     font-size: 0.8rem;
     height: 80px;
-    width: 1200px;
+    width: 1400px;
 }
 
 .footer_all {
