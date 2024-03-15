@@ -181,7 +181,6 @@ input[type=text] {
 }
 
 #top_all {
-
     position: relative;
     width: 100%;
     height: 300px;
@@ -263,14 +262,15 @@ input[type=text] {
 #map_all {
     position: relative;
     width: 1400px;
-    height: auto;
+    height: 120px;
     margin: 0 auto;
     margin-top: 50px;
-    left: 100px;
+    /* left: 100px; */
 }
 
 #map_all>h1 {
-    width: 1200px;
+    width: 1400px;
+    margin-left: 100px;
     position: relative;
     font-size: 2.5rem;
 }
@@ -279,7 +279,7 @@ input[type=text] {
     position: absolute;
     top: 10px;
     display: flex;
-    right: 180px;
+    right:0px;
 }
 
 .m_img>img {
@@ -395,7 +395,7 @@ input[type=text] {
     padding: 50px 330px;
     font-size: 0.8rem;
     height: 80px;
-    width: 1200px;
+    width: 1400px;
 }
 
 .footer_all {
