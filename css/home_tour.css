@@ -25,7 +25,7 @@ a {
     color: #333;
 }
 
-
+/* 메뉴 호버시 색 변경 */
 #menu_up>a:hover {
     color: rgb(85, 124, 85);
 }
@@ -34,12 +34,12 @@ a {
     color: rgb(85, 124, 85);
 }
 
-.wrap {
+/* .wrap {
     position: relative;
     clear: both;
     width: 100%;
     margin: 0 auto;
-}
+} */
 
 .header_wrap {
     position: sticky;
@@ -48,8 +48,8 @@ a {
     height: 100px;
     min-width: 1200px;
     z-index: 10;
-    top: 0px;
-    border-top: 2px solid #0181be;
+     top: 0px; 
+    border-top: 2px solid #0181be; 
 }
 
 
@@ -57,17 +57,18 @@ a {
     width: 100%;
     border-bottom: 1px solid rgb(216, 216, 216);
     height: 100px;
+    margin: 0 auto;
     background-color: rgb(255, 255, 255);
     clear: both;
     z-index: 9;
 }
 
-.header_row_01_center {
+/* .header_row_01_center {
     position: relative;
     clear: both;
     width: 100%;
     margin: 0 auto;
-}
+} */
 
 #header_01 {
     position: relative;
@@ -88,7 +89,7 @@ a {
     font-size: 1.0rem;
     font-weight: 800;
     left: 20%;
-
+ 
 }
 
 #menu_up {
@@ -127,6 +128,10 @@ input[type=text] {
     color: rgb(117, 117, 117);
 }
 
+
+
+
+/* 메인이미지 슬라이드 */
 #main_img {
     position: relative;
     width: 100%;
@@ -703,7 +708,7 @@ input[type=text] {
     padding: 50px 330px;
     font-size: 0.8rem;
     height: 80px;
-    width: 1200px;
+    width: 1400px;
 }
 
 .footer_all {
