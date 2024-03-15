@@ -330,7 +330,8 @@ input[type=text] {
 }
 .m_space_wrap{
     position: relative;
-    width: 1100px;
+    width: 1200px;
+    clear: both;
     height: 740px;
     margin: 0 auto;
     margin-top: 50px;
@@ -338,6 +339,7 @@ input[type=text] {
 .m_space_l{
     position: relative;
     width: 727px;
+    margin: 0 45px;
     height: 740px;
     float: left;
     margin-right: 15px;
@@ -362,7 +364,7 @@ input[type=text] {
     padding: 50px 330px;
     font-size: 0.8rem;
     height: 80px;
-    width: 1200px;
+    width: 1400px;
 }
 
 .footer_all {
