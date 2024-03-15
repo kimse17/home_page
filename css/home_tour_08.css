@@ -299,7 +299,7 @@ input[type=text] {
 
 #intro_all {
     position: relative;
-    width: 1200px;
+    width: 1400px;
     margin: 0 auto;
     height: auto;
 }
@@ -344,7 +344,7 @@ input[type=text] {
     content: '';
     position: absolute;
     top: 540px;
-    left: 34px;
+    left: 125px;
     width: 1100px;
     height: 1px;
     background-color:#eee;
@@ -364,7 +364,7 @@ input[type=text] {
     padding: 50px 330px;
     font-size: 0.8rem;
     height: 80px;
-    width: 1200px;
+    width: 1400px;
     margin: 0 auto;
 }
 
