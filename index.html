@@ -6,28 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>팝콘D스퀘어</title>
     <link rel="stylesheet" href="./css/home_tour.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="./js/jquery-3.7.1.min.js"></script>
-    <script src="./js/jquery-3.6.0.min.js"></script>
     <script defer src="./js/home_tour.js"></script>
-    <script src="./js/jquery-3.6.0.js"></script>
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-
-    <head profile="http://www.w3.org/2005/10/profile">
-        <link rel="icon" type="image/png" href="http://example.com/myicon.png">
-        <style>
-            .material-symbols-outlined {
-                font-variation-settings:
-                    'FILL' 0,
-                    'wght' 400,
-                    'GRAD' 0,
-                    'opsz' 20
-            }
-        </style>
-    </head>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <!-- <script type="text/javascript" src="slick/slick.min.js"></script> -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- <head profile="http://www.w3.org/2005/10/profile"> -->
+    <!-- <link rel="icon" type="image/png" href="http://example.com/myicon.png"> -->
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings:
+                'FILL'0,
+                'wght'400,
+                'GRAD'0,
+                'opsz'20
+        }
+    </style>
+</head>
 
 <body>
     <header class="header_wrap">
@@ -230,9 +232,8 @@
         </div>
     </section>
 
-
     <section id="main_img_03">
-        <div class="mini_img">
+        <div class="mini_img center">
             <img src="./home_tour_img/mini_img_01.jpg" alt="">
             <img src="./home_tour_img/mini_img_02.jpg" alt="">
             <img src="./home_tour_img/mini_img_01.jpg" alt="">
@@ -259,7 +260,8 @@
     <!-- 게시글 3 -->
     <section id="art_all_02">
         <img src="./home_tour_img/img_03.jpg" width="100%" alt="">
-        <div class="mini_01" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="3500" data-aos-duration="900">
+        <div class="mini_01" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="3500"
+            data-aos-duration="900">
             <h2 class="art_ment_04">즐거운 일상 속 반가운 캐릭터</h2>
             <p class="art_ment_05">보기만 해도 미소 지어지고, 만져 보기만 해도 따듯해지는 <br>
                 캐릭터 상품으로 가득한 애니랜드입니다. 도라에몽, 짱구, 원피스 등 <br>
@@ -365,6 +367,31 @@
         </div>
         <script defer>
             AOS.init();
+
+            $('.center').slick({
+                centerMode: true,
+                centerPadding: '60px',
+                slidesToShow: 3,
+                responsive: [{
+                        breakpoint: 768,
+                        settings: {
+                            arrows: false,
+                            centerMode: true,
+                            centerPadding: '40px',
+                            slidesToShow: 3
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            arrows: false,
+                            centerMode: true,
+                            centerPadding: '40px',
+                            slidesToShow: 1
+                        }
+                    }
+                ]
+            });
         </script>
     </section>
 
