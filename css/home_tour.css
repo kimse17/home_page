@@ -24,6 +24,55 @@ a {
     text-decoration: none;
     color: #333;
 }
+.slick-next {
+    left:30px;
+    font-size: 0px;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: inline-block; 
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    background-color: transparent; 
+    border:1px solid gray;
+    outline: none;
+     /* background: rgba(255, 255, 255, 0.003); */
+}
+
+.slick-slide {
+    margin-left: 35px;
+}
+.slick-prev {
+   right: 30px;
+    font-size: 0px;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+   display: inline-block; 
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    background-color: transparent; 
+    border:1px solid gray;
+    outline: none;
+}
+
+.slick-prev::before,
+.slick-next::before{
+    color: red !important;
+    font-size: 25px !important;
+}
 
 /* 메뉴 호버시 색 변경 */
 #menu_up>a:hover {
@@ -367,14 +416,6 @@ input[type=text] {
     top: 10px;
 }
 
-#main_img_03 {
-    position: relative;
-    width: 1200px;
-    margin: 0 auto;
-    margin-top: 50px;
-    height: 600px;
-    background-color: yellowgreen;
-}
 
 
 .header_row_02_all {
@@ -522,21 +563,17 @@ input[type=text] {
 
 #main_img_03 {
     position: relative;
-    width: 1200px;
+    width: 1400px;
     margin: 0 auto;
     overflow: hidden; 
-    height: 450px;
-    background-color: #0181be;
+    height: 650px;
+    /* background-color: #0181be; */
 }
 
 .mini_img {
     position: relative;
     display: flex;
-}
-
-.mini_img>img {
-    margin-right: 100px;
-    margin-left: -50px;
+    flex-flow: row nowrap;
 }
 
 #art_all_03 {
