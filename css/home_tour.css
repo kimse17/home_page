@@ -33,7 +33,7 @@ a {
 }
 
 .slick-prev {
-    background-image: url(./home_tour_img/nav-prev.png);
+    background-image: url(../home_tour_img/dw-slide-nav-prev.png);
     z-index: 100;
     position: absolute;
     left: -100px;
@@ -43,7 +43,7 @@ a {
 }
 
 .slick-next {
-    background-image: url(./home_tour_img/nav-next.png);
+    background-image: url(../home_tour_img/nav-next.png);
     right: -100px;
     position: absolute;
     cursor: pointer;
@@ -67,7 +67,7 @@ a {
     border-radius: 50%;
     height: 80px;
     border: none;
-    text-indent: -9999px;
+   text-indent: -9999px; 
     overflow: hidden;
 }
 /* 메뉴 호버시 색 변경 */
