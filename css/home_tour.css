@@ -37,6 +37,7 @@ a {
     z-index: 100;
     position: absolute;
     left: -100px;
+    z-index: 11;
     cursor: pointer;
 
 }
